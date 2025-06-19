@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site_header {
+  background-color: #faf9f6;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site_header .col {
+  display: flex;
+  column-gap: 15px;
+}
+
+.site_header .col:first-child,
+.site_header .col:last-child {
+width:30%;
+}
+
+/* star is universal selector */
+/* any property or key and value is called declaration */
+/* anything between {} is a block */
+/* additional selectors: id, class, tag */
