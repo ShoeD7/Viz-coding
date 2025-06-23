@@ -10,17 +10,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  -webkit-box-shadow: 1px 6px 6px 5px #9c9c9c;
+  box-shadow: 1px 6px 6px 5px #9c9c9c;
 }
 
 .site_header .col {
   display: flex;
   column-gap: 15px;
+  font-family: Merriweather;
+  font-size: 12px;
 }
 
 .site_header .col:first-child,
 .site_header .col:last-child {
-width:30%;
+  width: 30%;
 }
+
+.site_header .col:first-child {
+  justify-content: flex-start;
+}
+
+.site_header .col:last-child {
+  justify-content: flex-end;
+}
+
+.site_header #centre img {width: 400px}
+
+.site_header #giftshop {text-decoration: none;}
+
+.site_header #giftshop span {color: #B00020;}
+
+
 
 /* star is universal selector */
 /* any property or key and value is called declaration */
